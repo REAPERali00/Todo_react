@@ -1,0 +1,30 @@
+*{
+  background-color: black;
+}
+
+h1{
+  color: greenyellow;
+  font-size: xx-large;
+  border: 2rem;
+}
+
+h1, p{
+  color: beige;
+  border: 2px dashed tomato; 
+}
+
+.center{
+  text-align: center;
+  color: white ;
+}
+
+.Paragraph{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+p.Paragraph{
+  color: black;
+  margin-top: 30px;
+  background-color: gold;
+
+}
