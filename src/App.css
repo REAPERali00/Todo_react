@@ -1,6 +1,8 @@
 *{
   background-color: black;
+  /* background-image: url("assets/7-o.jpg"); */
 }
+
 
 h1{
   color: greenyellow;
@@ -10,21 +12,47 @@ h1{
 
 h1, p{
   color: beige;
-  border: 2px dashed tomato; 
+  padding: 30px;
+  /* border: 2px dashed tomato;  */
 }
 
 .center{
   text-align: center;
   color: white ;
+  margin: 60px;
 }
 
 .Paragraph{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
+  font-style: italic
 }
 p.Paragraph{
   color: black;
   margin-top: 30px;
-  background-color: gold;
+  background-color: rgba(245, 218, 65, 0.9);
+  opacity: 0.9;
+}
 
+img{
+  width: 50%;
+  height: 50%;
+}
+
+.borders{
+  border: gold;
+  border-style: solid dashed ;
+  border-width: 2px 4px ;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin-left: 20px;
+
+}
+
+.margins{
+  margin: auto;
+  margin-top: 30px;
+}
+
+.Outlined{
+ outline: 4px outset white;  
 }
